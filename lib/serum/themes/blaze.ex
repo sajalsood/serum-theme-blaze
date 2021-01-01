@@ -1,7 +1,7 @@
 defmodule Serum.Themes.Blaze do
   @behaviour Serum.Theme
 
-  @priv_dir :code.priv_dir(:serum_theme_Blaze)
+  @priv_dir :code.priv_dir(:serum_theme_blaze)
   @theme_version Mix.Project.config[:version]
 
   def name, do: "Blaze"

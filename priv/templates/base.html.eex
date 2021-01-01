@@ -12,9 +12,7 @@
     <div id="wrapper">
       <header id="top"><%= include "banner" %></header>
       <nav><%= include "nav" %></nav>
-      <hr>
       <main><%= @contents %></main>
-      <hr>
       <footer>
         <%= include "footer" %>
       </footer>
